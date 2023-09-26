@@ -3,7 +3,6 @@
 import React from "react"
 import Image from "next/image"
 import { motion } from "framer-motion";
-// import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function Concept() {
@@ -19,13 +18,12 @@ export default function Concept() {
          initial={{ opacity: 0, y: 100 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ delay: 0.125 }}>
-            <h2 className="uppercase text-xl tracking-widest text-red-400">
+            <h2 className="uppercase text-xl tracking-widest text-[#959794]">
               Le concept
             </h2>
             <h3 className=" font-bold text-3xl sm:text-4xl py-4">
               Qui suis-je ?
             </h3>
-            {/* <SectionHeading>Qui suis-je ?</SectionHeading> */}
 
             <p className="py-2 sm:text-lg text-gray-600">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem 

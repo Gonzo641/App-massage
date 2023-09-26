@@ -1,3 +1,4 @@
+import { FaRegIdBadge } from 'react-icons/fa'
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -14,6 +15,13 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    // colors: {
+    //   goldYellow: '#c6ad46',
+    //   grayCoquille: '#a9b3b2',
+    //   grayPerle: '#959794',
+    //   greenCoquille: '#5d6e65',
+    //   blackCoquille: '#272823',
+    // }
   },
   plugins: [],
 }

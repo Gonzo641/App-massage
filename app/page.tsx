@@ -2,11 +2,12 @@ import Concept from "@/components/concept"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
 import Intro from "@/components/intro"
-import Massages from "@/components/massages"
+// import Massages from "@/components/massages"
 // import Produits from "@/components/produits"
 import Salon from "@/components/salon"
 import SectionDivider from "@/components/section-divider"
-import Soins from "@/components/soins"
+import Skills from "@/components/skills"
+import Tarifs from "@/components/tarifs"
 import React from "react"
 
 
@@ -19,9 +20,10 @@ export default function Home() {
       <SectionDivider />
       <Salon />
       <SectionDivider />
-      <Massages />
+      {/* <Massages /> */}
+      <Skills />
       <SectionDivider />
-      <Soins />
+      <Tarifs />
       <SectionDivider />
       {/* <Produits /> */}
       <Contact />

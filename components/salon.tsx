@@ -10,7 +10,7 @@ export default function Salon() {
   const { ref } = useSectionInView('Salon');
 
   return (
-    <section ref={ref} className="w-full md:h-screen p-2 flex items-center pt-16 sm:pt-0 bg-red-300 my-16"
+    <section ref={ref} className="w-full md:h-screen p-2 flex items-center pt-16 sm:pt-0 bg-[#a9b3b2] my-16"
              id="salon" >
     <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 sm:mx-36 ">
         <motion.div className="w-full h-full shadow-xl shadow-gray-400 rounded-xl
@@ -31,7 +31,7 @@ export default function Salon() {
        initial={{ opacity: 0, y: 100 }}
        animate={{ opacity: 1, y: 0 }}
        transition={{ delay: 0.125 }}>
-          <h3 className=" font-bold text-3xl sm:text-4xl py-4 text-white mt-10 sm:mt-0">
+          <h3 className=" font-bold text-3xl sm:text-4xl py-4 text-black mt-10 sm:mt-0">
             Le Salon
           </h3>
 

@@ -32,11 +32,11 @@ export default function Service({ title, description, price, duration, imageUrl}
                             lg:h-[22rem] md:h-[30rem] sm:h-[45rem] h-auto
                             border border-black/5
                             overflow-hidden sm:pr-8 rounded-lg
-                            hover:bg-[rgba(231,210,153,255)] transition md:mb-12">
+                            hover:bg-gray-200 transition md:mb-12">
             <div className="md:grid grid-cols-3">
                 <div className="col-span-2 pt-4 pb-7 px-5 sm:pl-10 
                                 sm:pr-2 sm:pt-10">
-                    <h3 className="text-2xl font-semibold text-red-600">
+                    <h3 className="text-2xl font-semibold text-[#272823]">
                         {title}
                     </h3>
                     <p className="mt-2 leading-relaxed text-gray-700">

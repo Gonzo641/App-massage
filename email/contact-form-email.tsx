@@ -25,7 +25,7 @@ export default function ContactFormEmail({ message, senderEmail }: ContactFormEm
         <Tailwind>
             <Body className="bg-gray-100 text-black">
                 <Container>
-                    <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
+                    <Section className="bg-white border border-black/10 my-10 px-10 py-4 rounded-md">
                         <Heading className="leading-tight">
                             You received the following message from contact form
                         </Heading>
