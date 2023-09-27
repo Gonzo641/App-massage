@@ -53,13 +53,13 @@ export default function Salon() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, et!
           </p>
           <p className="py-2 sm:text-lg text-black font-bold">
-            Rendez-vous par mail via l'espace Contact ou par téléphone
+            Rendez-vous par mail via l&apos;espace Contact ou par téléphone
           </p>
           <p className="py-2 sm:text-lg text-black font-bold">
             Abélard Véronique 06.81.81.39.92
           </p>
           <p className="py-2 sm:text-lg text-black font-bold">
-            Adresse: 62 avenue d'Espagne 64600 Anglet
+            Adresse: 62 avenue d&apos;Espagne 64600 Anglet
           </p>
        </motion.div>
     </div>
