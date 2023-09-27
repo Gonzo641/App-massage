@@ -42,6 +42,12 @@ export default function Concept() {
             <p className="py-2 sm:text-lg text-gray-600">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, et!
             </p>
+            <p className="py-2 sm:text-lg text-gray-600 font-bold">
+              Formation suivie validée certifiée RNCP
+            </p>
+            <p className="py-2 sm:text-lg text-gray-600 font-bold">
+              École Eviméria Arcangues
+            </p>
          </motion.div>
          <motion.div className="w-full h-full shadow-xl shadow-gray-400 rounded-xl
                         flex items-center justify-center p-4 "
