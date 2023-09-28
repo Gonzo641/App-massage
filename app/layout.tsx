@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="fr" className='!scroll-smooth'>
       <body className={`${raleway.className} bg-stone-100 
       text-gray-950 relative`}>
-        <div className='bg-[#c4b5fd] absolute top-[-6rem] 
+        {/* <div className='bg-[#c4b5fd] absolute top-[-6rem] 
         -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] 
         rounded-full blur-[10rem] sm:w-[68.75rem]'>
         </div>
@@ -29,7 +29,7 @@ export default function RootLayout({
         -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem]
         sm:w-[68.75rem] md:left-[-33rem] lg::left-[-28rem] 
         xl:left-[-15rem] 2xl:left[-5rem]'>
-        </div>
+        </div> */}
       
         <ActiveSectionContextProvider>
           <Header />

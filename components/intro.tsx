@@ -35,13 +35,13 @@ export default function Intro() {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute flex justify-center items-center inset-y-0 inset-x-0">
           <div className="text-center flex flex-col">
-            <motion.span className="font-bold px-2 py-2 text-[#c6ad46] text-5xl sm:text-8xl"
+            <motion.span className="font-bold px-2 py-2 text-white text-5xl sm:text-8xl"
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.125 }}>
               Wélina
             </motion.span>
-            <motion.span className="font-bold uppercase text-2xl sm:text-4xl text-[#c6ad46] sm:mt-8"
+            <motion.span className="font-bold uppercase text-2xl sm:text-4xl text-white sm:mt-8"
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.125 }}>
